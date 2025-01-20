@@ -57,6 +57,7 @@ $button-text-color: #ffffffb2;
 
     &.visible {
       left: 0;
+      top: 0;
       height: 100vh;
       position: fixed;
     }
