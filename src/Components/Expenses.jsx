@@ -18,7 +18,7 @@ const Expenses = () => {
       </div>
       <div className="expense-box ">
         <div style={{ borderBottom: "1px  solid rgb(251,251,251)" }} className="expense-box-bar  ">
-          <div style={{ borderRight: "1px  solid rgb(251,251,251)" }} className="col-4 ">
+          <div style={{ borderRight: "1px  solid rgb(251,251,251)" }} className="col-md-4 col-8 ">
             <div className="expense-box-bar-img">
               <img src={housing} alt="" />
             </div>
@@ -37,7 +37,7 @@ const Expenses = () => {
             </div>
           </div>
           {/* 2  */}
-          <div style={{ borderRight: "1px solid rgb(251,251,251)" }} className="col-4">
+          <div style={{ borderRight: "1px solid rgb(251,251,251)" }} className="col-md-4 col-8">
             <div className="expense-box-bar-img">
               <img src={food} alt="" />
             </div>
@@ -56,7 +56,7 @@ const Expenses = () => {
             </div>
           </div>
           {/* 3  */}
-          <div className="col-4">
+          <div className="col-md-4 col-8">
             <div className="expense-box-bar-img">
               <img src={lunch} alt="" />
             </div>
@@ -77,7 +77,7 @@ const Expenses = () => {
         </div>
         <div className="expense-box-bar mt-md-0 mt-3">
           {/* 1  */}
-          <div style={{ borderRight: "1px  solid rgb(251,251,251)" }} className="col-4">
+          <div style={{ borderRight: "1px  solid rgb(251,251,251)" }} className="col-md-4 col-8">
             <div className="expense-box-bar-img">
               <img src={movie} alt="" />
             </div>
@@ -96,7 +96,7 @@ const Expenses = () => {
             </div>
           </div>
           {/* 2  */}
-          <div style={{ borderRight: "1px solid rgb(251,251,251)" }} className="col-4">
+          <div style={{ borderRight: "1px solid rgb(251,251,251)" }} className="col-md-4 col-8">
             <div className="expense-box-bar-img">
               <img src={shopping} alt="" />
             </div>
@@ -115,7 +115,7 @@ const Expenses = () => {
             </div>
           </div>
           {/* 3  */}
-          <div className="col-4">
+          <div className="col-md-4 col-8">
             <div className="expense-box-bar-img">
               <img src={others} alt="" />
             </div>
